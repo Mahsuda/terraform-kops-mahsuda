@@ -1,0 +1,5 @@
+resource "aws_key_pair" "kubernetes-maqsudat-net-121b47b82f8fded3df156eae354d0e8b" {
+  key_name   = "kubernetes.maqsudat.net-12:1b:47:b8:2f:8f:de:d3:df:15:6e:ae:35:4d:0e:8b"
+  public_key = "${file("${path.module}/data/aws_key_pair_kubernetes.maqsudat.net-121b47b82f8fded3df156eae354d0e8b_public_key")}"
+}
+
